@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+
+.cabecalho-imagem{
+  height: 6rem;
+}
+
+.cabecalho-nav{
+  display: flex;
+  gap: 2rem;
+}
+
+.cabecalho-nav-item{
+  font-family: 'Roboto', sans-serif;
+  color:  #ECD6C4;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.conteudo{
+  margin-bottom: 48px;
+  border-top: 0.4px solid #f1f1f1;  
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #f1f1f1;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffd7b6;
+}
+
+.conteudo-principal-escrito-botao{
+  background-color: #ECD6C4;
+  width: 180px;
+  height: 60px;
+  box-shadow: 4px 5px 4px rgba(0,0,0, 0.25);
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2F2325;
+}
+
+.conteudo-secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+  border-top:  0,4px solid #FFF2e7;
+  padding-top: 48px;
+  font-size: 3rem;
+  color: #f1f1f1;
+}
+
+.conteudo-secundario-descricao{
+  color: #ffd7b6;
+  font-size: 1.2rem;
+}
+
+.rodape {
+  display: flex;
+  font-size: 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  color: #ECD6C4;
+}
+
