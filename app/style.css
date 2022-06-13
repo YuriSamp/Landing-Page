@@ -28,11 +28,23 @@ body{
   font-family: 'Roboto', sans-serif;
   color:  #ECD6C4;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #ffcea6;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 2rem;
 }
 
+.cabecalho-nav-item:hover{
+  color: rgb(255, 206, 116);
+}
+
+
 .conteudo{
-  margin-bottom: 48px;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
   border-top: 0.4px solid #f1f1f1;  
 }
 
@@ -40,25 +52,26 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 .conteudo-principal-escrito{
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .conteudo-principal-escrito-titulo{
   font-family: 'Righteous', cursive;
   font-weight: 400;
-  font-size: 64px;
+  font-size: 4rem;
   color: #f1f1f1;
 }
 
 .conteudo-principal-escrito-subtitulo{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #ffd7b6;
 }
 
@@ -72,18 +85,19 @@ body{
   font-weight: bold;
   font-size: 24px;
   color: #2F2325;
+  cursor: pointer;
 }
 
 .conteudo-secundario{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  margin-top: 48px;
+  gap: 1.5rem;
+  margin-top: 3rem;
 }
 
 .conteudo-secundario-titulo{
-  border-top:  0,4px solid #FFF2e7;
+  border-top: 0.4px solid #FFF2e7;
   padding-top: 48px;
   font-size: 3rem;
   color: #f1f1f1;
@@ -96,12 +110,37 @@ body{
 
 .rodape {
   display: flex;
-  font-size: 32px;
+  font-size: 3rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 3rem;
+  padding-bottom: 4.25rem;
   padding-top: 3rem;
-  color: #ECD6C4;
+  color: #ffffff;
 }
 
+@media screen and (max-width: 480px) {
+
+  .cabecalho{
+    flex-direction: column;
+  }
+  .cabecalho-nav{
+    padding-top: 1rem;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+  }
+  .conteudo-principal-escrito{
+    width: 50%;
+  }
+  .conteudo-secundario-descricao{
+    width: 90%;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  .rodape{
+    justify-content: space-around;
+    font-size: 1.45rem;
+  }
+ 
+}
