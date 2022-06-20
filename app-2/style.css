@@ -1,0 +1,129 @@
+:root {
+  --fonte: rgb(38, 56, 22);
+  --navfonte: rgb(223, 222, 222);
+  --box: #39815a;
+  --personal-glow: 9px 9px 4px rgba(57, 85, 34, 0.75);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  font-size: 100%;
+}
+
+h4{
+  font-weight: bold;
+  font-size: 3rem;
+  font-style: italic;
+  color: white;
+}
+
+.cabecalho {
+  display: flex;
+  padding: 1.5rem;
+}
+
+.cabecalho-imagem {
+  height: 7rem;
+  padding-left: 6rem;
+}
+
+.cabecalho-nav {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  padding-left: 20rem;
+}
+
+.cabecalho-nav-item {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: var(--fonte);
+  border: solid;
+  border-width: 2px;
+  border-radius: 1.5rem;
+  border-color: var(--box);
+  box-sizing: border-box;
+  box-shadow: var(--personal-glow);
+}
+
+.cabecalho-nav-login {
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: var(--fonte);
+  margin-left: 10rem;
+  padding: 0.7rem 1rem;
+  border: solid;
+  border-width: 2px;
+  border-radius: 2rem;
+  border-color: var(--box);
+  box-sizing: border-box;
+  box-shadow: var(--personal-glow);
+}
+
+.principal {
+  padding-top: 2rem;
+  display: flex;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.texto-1 {
+  border-top: 1px solid #eee;
+  color: var(--fonte);
+  width: 50%;
+  padding-top: 1.5rem;
+  font-size: 1.725rem;
+}
+
+.texto-2{
+  color: var(--fonte);
+  width: 50%;
+  padding-top: 1.5rem;
+  font-size: 1.725rem;
+}
+
+
+.foto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.foto-img {
+  width: 90%;
+  border-radius: 2rem;
+}
+
+.rodape {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+.texto-rodape {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  box-sizing: border-box;
+  box-shadow: var(--personal-glow2);
+}
