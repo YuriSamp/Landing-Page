@@ -1,2 +1,3 @@
 # Landing-Page
-Vou fazer varias landing-pages pra treinar
+O intuito desse repositorio é encher de landing pages usando html e css puro para aperfeiçoar minhas habilidades
+
